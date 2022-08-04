@@ -23,7 +23,10 @@ public class Demo
 	
 	public static void main(String[] args) {
 		
-		System.out.println("Hello");
-		System.out.println("Main Method");
+		Demo d = new Demo();
+		d.m1();
+		d.m2();
+		d.m3();
+		d.m4();
 	}
 }
